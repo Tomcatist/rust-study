@@ -4,43 +4,7 @@
     <cargoProject FILE="$PROJECT_DIR$/hello-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="写个猜数字游戏">
-      <change afterPath="$PROJECT_DIR$/variables/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/.rustc_info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/CACHEDIR.TAG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/.cargo-lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-4dde777aae6e25f1/bin-variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-4dde777aae6e25f1/bin-variables.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-4dde777aae6e25f1/dep-bin-variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-4dde777aae6e25f1/invoked.timestamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.13s3powrarb945oo.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.157j8kwrjyc973m4.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.1gmqqajfwmpcs9u1.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.1pdtj0o26zk3pc63.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.1q8myh6hjv5fi30y.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.3dhu915u4t8mhwha.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.4ys7aoah27pu9phr.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.5fku5t1152oao7jj.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/deps/variables-4dde777aae6e25f1.rng04pn2rtxf56h.rcgu.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/13s3powrarb945oo.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/157j8kwrjyc973m4.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/1gmqqajfwmpcs9u1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/1pdtj0o26zk3pc63.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/1q8myh6hjv5fi30y.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/3dhu915u4t8mhwha.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/4ys7aoah27pu9phr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/5fku5t1152oao7jj.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/dep-graph.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/query-cache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/rng04pn2rtxf56h.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p-2vj11amyq08vu/work-products.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2mb0sjj9v9iiz/s-gdzlj1fgk5-1b1fe1p.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/variables" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables/target/debug/variables.d" afterDir="false" />
+    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="常见编程概念">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +52,7 @@
       <updated>1664338576362</updated>
       <workItem from="1664338577864" duration="105000" />
       <workItem from="1664338689456" duration="3634000" />
-      <workItem from="1664423156422" duration="1006000" />
+      <workItem from="1664423156422" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="写个猜数字游戏">
       <created>1664342332410</created>
@@ -97,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664342332410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="常见编程概念">
+      <created>1664427832810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664427832810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="写个猜数字游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="写个猜数字游戏" />
+    <MESSAGE value="常见编程概念" />
+    <option name="LAST_COMMIT_MESSAGE" value="常见编程概念" />
   </component>
 </project>
