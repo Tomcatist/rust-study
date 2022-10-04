@@ -1,41 +1,25 @@
-use core::panic;
 use std::env;
-use std::fs;
 use std::process;
+use minigrep::Config;
+use minigrep::run;
+
 
 fn main () {
     // 命令行接受输入
     let args: Vec<String> = env::args().collect();
 
+    // 调用构造函数Config的new() 方法 并且处理错误信息（闭包）
     let config = Config::new(&args).unwrap_or_else(|err| {
         println!("Problem parsing arguments: {}", err);
         process:: exit(1);
     });
-    let contents = fs::read_to_string(config.filename)
-    .expect("Something went wrong reading the file");
 
-    println!("With text \n{}", contents);
+    // 调用run() 并处理错误信息
+    if let Err(e) = run(config) {
+        println!("Application error: {}", e);
+        process::exit(1);
+    };
+
 }
 
-// 构造函数
-struct Config {
-    query: String,
-    filename: String,
-}
-
-impl Config {
-    // 转换配置函数
-    fn new(args: &[String]) -> Result<Config, &'static str> {
-        // 入参判断
-        if args.len() < 3 {
-            //panic!("not enough arguments");
-            return Err("not enough arguments");
-        }
-        // 获取输入参数的第一个和第二个
-        let query = args[1].clone();
-        let filename = args[2].clone();
-        // 返回结构体
-        Ok(Config { query, filename })
-    }
-}
 
