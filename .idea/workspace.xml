@@ -4,8 +4,153 @@
     <cargoProject FILE="$PROJECT_DIR$/hello-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="常见编程概念">
+    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="函数重构">
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.2n5t0xo310pboinl.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5lyyg71r-1bg091i-30exvw1c9h7nc/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5lyyg71r-1bg091i-30exvw1c9h7nc/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5lyyg71r-1bg091i-30exvw1c9h7nc/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5lyyg71r-1bg091i.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5lyyg71r-t4hoq3-3lbzlxj91w1nz/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5lyyg71r-t4hoq3-3lbzlxj91w1nz/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5lyyg71r-t4hoq3-3lbzlxj91w1nz/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5lyyg71r-t4hoq3.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/101oti7x31ulwfag.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/125fbvfc5vukxgnr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/15zm39j2xty661s5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/16od7xxxlaaobod7.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1das9u1sl6ke2ixd.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1jdp2a6dwh94s2lt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1kdc6cw8ar1n9km.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1l7gb1nvaotamev2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1psjw83d5wnf0erk.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1so8ni6qhsdboe8c.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1sqz1d3yryyhrbq9.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1uc81tiqtarr4fg4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1udxdhxxwhs5lsbt.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1vu64b7g48gbsiw4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/1yirvsz2gv3selwl.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/20qynczjoh61qpjm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/24vd4pdopgbemdcq.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/24zt3bx50o7hggej.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/28arwqugyeiktgat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/29a467bmkmifmhba.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/2a5to5iq3zez1r8k.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/2n5t0xo310pboinl.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/36k5vtrd8m4yxqcx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/39xajngzw88uaqmg.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3kx16i6tg46ggk2q.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3nasfgkvjaaabbmb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3ozggzsd6t5jv19a.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3rxss9vqdb2i3s0j.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3tkp3ea8iy02yles.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3tvyo7sh7ryq5nwb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/3v9l3aydrjt18oac.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/41gh9ll2brbj19yf.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/46llojuiv3c3iy6k.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4aj3zbjanpt626w7.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4fq5jz9s406o1r7h.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4glbfmmvtbqpjsbx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4s7e3a3mtx34bemb.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4vb3w5stodta3qb4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4wzux0cwfpbcmjnw.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/4xanutjswyvapwol.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/50ex0c0ysptlfxki.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/526zyl0dgxk16n32.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/58in0ig2isiid46t.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/5bk68ceybf6bt25n.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/5fzja1i92s5qjh71.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/60858lhrcp06pbc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/clqu6el54kcfo3d.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/d3bf2dioudq1kfg.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/l7m9ifpu12jymw5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/m2t484kczmwrh05.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/w3sxb58ha9869sv.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x-1ywxhrvve2v2m/wwy2cm9syv9svxn.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5lyzonok-giqi4x.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-122eaa0f79b62137/output-test-bin-minigrep" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-122eaa0f79b62137/output-test-bin-minigrep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-31a6ebc77fd5c92d/output-bin-minigrep" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-31a6ebc77fd5c92d/output-bin-minigrep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-e5aa9001064a4da8/output-bin-minigrep" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/.fingerprint/minigrep-e5aa9001064a4da8/output-bin-minigrep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.3rxss9vqdb2i3s0j.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.3rxss9vqdb2i3s0j.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.4glbfmmvtbqpjsbx.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.4glbfmmvtbqpjsbx.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.4s7e3a3mtx34bemb.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/deps/minigrep-31a6ebc77fd5c92d.4s7e3a3mtx34bemb.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los127g-1lgu5gs-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los127g-1lgu5gs-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los127g-1lgu5gs-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los127g-1lgu5gs.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los48h3-1e42y6e-2t6b2uli36zuj/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los48h3-1e42y6e-2t6b2uli36zuj/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los48h3-1e42y6e-2t6b2uli36zuj/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-18ijbb0zjzmae/s-ge5los48h3-1e42y6e.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los127j-3v69rv-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los127j-3v69rv-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los127j-3v69rv-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los127j-3v69rv.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los48h3-lps28n-2gyamih1onjq6/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los48h3-lps28n-2gyamih1onjq6/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los48h3-lps28n-2gyamih1onjq6/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-ex46zhm4rc5e/s-ge5los48h3-lps28n.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/101oti7x31ulwfag.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/125fbvfc5vukxgnr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/15zm39j2xty661s5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/16od7xxxlaaobod7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1das9u1sl6ke2ixd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1jdp2a6dwh94s2lt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1kdc6cw8ar1n9km.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1l7gb1nvaotamev2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1psjw83d5wnf0erk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1so8ni6qhsdboe8c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1sqz1d3yryyhrbq9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1uc81tiqtarr4fg4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1udxdhxxwhs5lsbt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1vu64b7g48gbsiw4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/1yirvsz2gv3selwl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/20qynczjoh61qpjm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/24vd4pdopgbemdcq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/24zt3bx50o7hggej.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/28arwqugyeiktgat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/29a467bmkmifmhba.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/2a5to5iq3zez1r8k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/36k5vtrd8m4yxqcx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/39xajngzw88uaqmg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3kx16i6tg46ggk2q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3nasfgkvjaaabbmb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3ozggzsd6t5jv19a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3rxss9vqdb2i3s0j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3tkp3ea8iy02yles.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3tvyo7sh7ryq5nwb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/3v9l3aydrjt18oac.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/41gh9ll2brbj19yf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/46llojuiv3c3iy6k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4aj3zbjanpt626w7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4fq5jz9s406o1r7h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4glbfmmvtbqpjsbx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4s7e3a3mtx34bemb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4vb3w5stodta3qb4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4wzux0cwfpbcmjnw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/4xanutjswyvapwol.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/50ex0c0ysptlfxki.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/526zyl0dgxk16n32.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/58in0ig2isiid46t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/5bk68ceybf6bt25n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/5fzja1i92s5qjh71.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/60858lhrcp06pbc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/clqu6el54kcfo3d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/d3bf2dioudq1kfg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/l7m9ifpu12jymw5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/m2t484kczmwrh05.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/w3sxb58ha9869sv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid-12590au46gvrh/wwy2cm9syv9svxn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/incremental/minigrep-kwpp73yahh96/s-ge5loxc6m6-15aztid.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minigrep/target/debug/minigrep" beforeDir="false" afterPath="$PROJECT_DIR$/minigrep/target/debug/minigrep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +198,7 @@
       <workItem from="1664338577864" duration="105000" />
       <workItem from="1664338689456" duration="3634000" />
       <workItem from="1664423156422" duration="1641000" />
+      <workItem from="1664892878059" duration="1231000" />
     </task>
     <task id="LOCAL-00001" summary="写个猜数字游戏">
       <created>1664342332410</created>
@@ -68,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664427832810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="函数重构">
+      <created>1664893899819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664893899819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +243,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="写个猜数字游戏" />
     <MESSAGE value="常见编程概念" />
-    <option name="LAST_COMMIT_MESSAGE" value="常见编程概念" />
+    <MESSAGE value="函数重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="函数重构" />
   </component>
 </project>
