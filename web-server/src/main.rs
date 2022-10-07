@@ -1,5 +1,6 @@
-use std::{net::{TcpListener, TcpStream}, io::{Read, Write}};
+use std::{net::{TcpListener, TcpStream}, io::{Read, Write}, thread};
 use std::fs;
+use std::time::Duration;
 
 fn main() {
     // 监听地址和端口
@@ -16,12 +17,20 @@ fn main() {
 fn handle_connection(mut stream: TcpStream) {
     // 定义空数组
     let mut buffer = [0;512];
+    // 读取请求并放入数组
+    stream.read(&mut buffer).unwrap();
     // 定义get字符串
     let get = b"GET / HTTP/1.1\r\n";
-    // 判断请求 是根目录 走hello
+    // 模拟长时间响应
+    let sleep = b"GET /sleep HTTP/1.1\r\n";
+    // 判断请求 是根目录 走hello 其他走404  /sleep模拟长时间响应
     let (status_line, filename) = if buffer.starts_with(get){
         ("HTTP/1.1 200 OK\r\n\r\n", "hello.html")
-    } else {
+    }else if buffer.starts_with(sleep) {
+        thread::sleep(Duration::from_secs(5));
+        ("HTTP/1.1 200 OK\r\n\r\n", "hello.html")
+    }
+    else {
         ("HTTP/1.1 404 NOT FOUND\r\n\r\n", "404.html")
     };
 
