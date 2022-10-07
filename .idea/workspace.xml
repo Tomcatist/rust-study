@@ -5,89 +5,24 @@
     <cargoProject FILE="$PROJECT_DIR$/web-server/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="写了一个简单的web服务器">
-      <change beforePath="$PROJECT_DIR$/.idea/rust-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-study.iml" afterDir="false" />
+    <list default="true" id="e6675676-6da2-4cb1-bc32-9aa52013573d" name="Changes" comment="增加/sleep 模拟长时间响应">
+      <change afterPath="$PROJECT_DIR$/web-server/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-server/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/.fingerprint/web-server-95e2005d26a973f9/output-bin-web-server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/deps/web_server-95e2005d26a973f9" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/target/debug/deps/web_server-95e2005d26a973f9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/deps/web_server-95e2005d26a973f9.32yktuh3459uo07n.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/target/debug/deps/web_server-95e2005d26a973f9.32yktuh3459uo07n.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/13otmwmlb20f5or5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/17qz87euwo56v06f.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/19t5ms7qwc1mkse3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/19x1uuiqurw3f3t.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1c8cy0c727nzxiry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1d30531arw3wrw5l.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1deloda6bvuzaf02.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1fdchwsu9u8kio9f.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1im1pblz1n18zrby.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1pkkni3gps8fh8jn.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1rfc43g20wuljov1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1sq460cipkk6rdzk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1tbpppsha1e0kt82.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1u2s71ggsfcqbzc4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/1xm4qdwb24zhsk72.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/214rz6qngi77eoek.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/27ld5pk7gpyoaeo9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/27qbwvzhc1zkycdh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2cjdnogwbtd0bszf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2kwy5zcmdsxz0ebb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2mat3ee9l8kfnjk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2whg1m0hc8nzd58o.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2x65t42wsrg3gb9s.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2x72z497ek8avqup.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2x9aybc1nhk1pdg3.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/2ye8rzftg22swpb5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/312lqzw6khhuv01b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/32nstn8sybmdh9bh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/32yktuh3459uo07n.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/35k2w2tqdv4v54kt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/35qk951ptsmgdsz6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3i4b5ejaw2x11x19.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3lu5jp3ihy8k9f5e.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3ob1pgle80utjryq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3pf8pnf04pt9yl48.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3wg804jofafmuweq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3wh82kbxbp6rq8f9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3yhpabki68417nbd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/3zx1if1b3pn3h1gm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/40kzov3gc9rilxjh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/462shuuziatlsssf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/48cua6l4gl68giez.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4bb5ba18il5esu1n.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4d4ir1huvmm9tnfw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4fcf2ow6hell2qfh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4g5jvuydp36crqez.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4i979m2jkymxj5yy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4n5d492wuuh5yezc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4tc941mqumktl7e0.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4uhseezodmlnbcbb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4uli41k3c5e3njkt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/4z3nzpkf5gy9gz2k.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/50kdfo0skrmoiymp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/51j3xwv1387sxhzi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/542t24muyp5vnbus.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/58h6dq4vik4dxoaw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/5gmv7q1tm7i9v05h.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/6f5whdopo3pxzj4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/8cc8fd6ly1j20om.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/8ddyfm7ybjsy2cv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/dcmypp07kxsa2r1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/ikqtrecendxdv09.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/pgiul78rw8ps3pn.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/q4umg8x8o0r4erk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/v8yxnfpf180wa80.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/vygyapy2w7th7i2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4-kgz2emg6fa33/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/target/debug/incremental/web_server-11l1ixxcdid3t/s-ge8m80dj6j-esfgq4.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web-server/target/debug/web-server" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/target/debug/web-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/target/debug/web-server.d" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/target/debug/web-server.d" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,7 +65,7 @@
       <workItem from="1664338577864" duration="105000" />
       <workItem from="1664338689456" duration="3634000" />
       <workItem from="1664423156422" duration="1641000" />
-      <workItem from="1664892878059" duration="4411000" />
+      <workItem from="1664892878059" duration="7494000" />
     </task>
     <task id="LOCAL-00001" summary="写个猜数字游戏">
       <created>1664342332410</created>
@@ -181,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665130255558</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加/sleep 模拟长时间响应">
+      <created>1665131136982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665131136982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +150,7 @@
     <MESSAGE value="错误处理和文件拆分" />
     <MESSAGE value="增加测试代码" />
     <MESSAGE value="写了一个简单的web服务器" />
-    <option name="LAST_COMMIT_MESSAGE" value="写了一个简单的web服务器" />
+    <MESSAGE value="增加/sleep 模拟长时间响应" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加/sleep 模拟长时间响应" />
   </component>
 </project>

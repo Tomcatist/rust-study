@@ -1,15 +1,21 @@
 use std::{net::{TcpListener, TcpStream}, io::{Read, Write}, thread};
 use std::fs;
 use std::time::Duration;
+use web_server::ThreadPool;
 
 fn main() {
     // 监听地址和端口
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+    // 创建线程池
+    let pool = ThreadPool::new(4);
     // 遍历监听进入的流
     for stream in listener.incoming() {
         let stream = stream.unwrap();
+        // 用线程池执行
+        pool.execute(|| {
+            handle_connection(stream);
+        })
 
-        handle_connection(stream);
     }
 }
 
